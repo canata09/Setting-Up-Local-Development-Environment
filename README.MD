@@ -1,7 +1,7 @@
 
 
-### 2. **Router Ayarlarını Kontrol Et**
-Router'ın firewall ayarları da cihazlar arasındaki iletişimi engelleyebilir. Router'ın arayüzüne giriş yaparak gerekli izinleri verdiğinden emin olman gerekiyor. http://192.168.0.1/
+### 1. **Router Ayarlarını Kontrol Et**
+Router'ın firewall ayarları da cihazlar arasındaki iletişimi engelleyebilir. Router'ın arayüzüne giriş yaparak gerekli izinleri verdiğinden emin olman gerekiyor. 
 
 - Router arayüzüne giriş yap ve firewall veya güvenlik ayarlarını kontrol et.
 - Cihazların aynı ağ segmentinde olduğundan emin ol.
@@ -10,7 +10,7 @@ Router'ın firewall ayarları da cihazlar arasındaki iletişimi engelleyebilir.
 
 
 
-### 1. **Router Ayarlarını Kontrol Et**
+### 2. **Router Ayarlarını Kontrol Et**
 Router'ın ayarlarına erişip portların açık olduğundan emin olman gerekiyor:
 
 1. **Router'a Giriş:**
@@ -19,10 +19,10 @@ Router'ın ayarlarına erişip portların açık olduğundan emin olman gerekiyo
 
 2. **Port Yönlendirme (Port Forwarding):**
    - Router’ın ayarlarında "Port Forwarding" veya "Virtual Server" bölümüne git.
-   - AudioRelay’in kullandığı port numaralarını öğren ve bu portları yönlendir. Genellikle AudioRelay, 59100 ve 59101 portlarını kullanır.
+   - Uygulama’in kullandığı port numaralarını öğren ve bu portları yönlendir. Genellikle Uygulama, 59100 ve 59101 portlarını kullanır.
    - Yeni bir kural ekleyerek, bu portları bilgisayarının IP adresine yönlendir.
 
-### 2. **UPnP (Universal Plug and Play) Ayarları**
+### 3. **UPnP (Universal Plug and Play) Ayarları**
 UPnP özelliğini etkinleştirerek cihazların otomatik olarak port açmasını sağlayabilirsin:
 
 1. **Router Ayarları:**
@@ -32,24 +32,24 @@ UPnP özelliğini etkinleştirerek cihazların otomatik olarak port açmasını 
 
 
 
-### 1. **Firewall Ayarlarını Kontrol Et**
-Firewall ayarlarını kontrol edip, AudioRelay uygulamasının ağdaki iletişim kurmasına izin verdiğinden emin olman gerekiyor.
+### 4. **Firewall Ayarlarını Kontrol Et**
+Firewall ayarlarını kontrol edip, Uygulama uygulamasının ağdaki iletişim kurmasına izin verdiğinden emin olman gerekiyor.
 
 1. **Bilgisayar Firewall:**
   1. Denetim Masası'na git ve "Sistem ve Güvenlik" altında "Windows Defender Firewall" seçeneğine tıkla.
   2. "Windows Defender Firewall'un bir uygulamaya veya özelliğe izin ver" seçeneğine tıkla.
-  3. Açılan listede AudioRelay uygulamasını bul ve hem özel hem de genel ağlar için izin verdiğinden emin ol.
-  4. Eğer listede yoksa, "Başka bir uygulamaya izin ver" düğmesine tıklayarak AudioRelay uygulamasını manuel olarak ekle.
+  3. Açılan listede Uygulamayı bul ve hem özel hem de genel ağlar için izin verdiğinden emin ol.
+  4. Eğer listede yoksa, "Başka bir uygulamaya izin ver" düğmesine tıklayarak Uygulamayı manuel olarak ekle.
 
 2. **Router Firewall:**
    - Router'ın güvenlik veya firewall ayarlarına gidip, bu portların açık olduğundan emin ol.
    - Gerekirse firewall'u devre dışı bırakıp test edebilirsin, ancak bu yöntem güvenlik riskleri barındırabilir.
 
 3. **Antivirüs Yazılımı:**
-  Eğer bir antivirüs yazılımı kullanıyorsan, bu yazılımın da kendi firewall ayarları olabilir. Antivirüs yazılımının ayarlarından AudioRelay uygulamasına izin verip vermediğini kontrol et.
+  Eğer bir antivirüs yazılımı kullanıyorsan, bu yazılımın da kendi firewall ayarları olabilir. Antivirüs yazılımının ayarlarından Uygulamaya izin verip vermediğini kontrol et.
 
 
-### 4. **Proxy Ayarları**
+### 5. **Proxy Ayarları**
 Proxy sunucular, çeşitli nedenlerle kullanılır ve birkaç temel işlevi vardır:
 
 1. **Gizlilik ve Anonimlik**: Proxy sunucular, kullanıcıların gerçek IP adreslerini gizleyerek internette anonim kalmalarına yardımcı olur. Bu, kullanıcıların internette gizliliklerini korumalarına ve izlenmelerini önlemelerine olanak tanır.
@@ -76,7 +76,7 @@ Proxy kullanılıyorsa, bu ayarları kontrol et:
    - Router’ın ayarlarında proxy ayarlarının olup olmadığını kontrol et.
 
 
-### 4. **Ağ Diagnostiği**
+### 6. **Ağ Diagnostiği**
 Ağda sorun olup olmadığını anlamak için basit bir ağ diagnostik aracı kullanabilirsin:
 
 1. **Bilgisayardan Ping At:**
@@ -88,7 +88,7 @@ Ağda sorun olup olmadığını anlamak için basit bir ağ diagnostik aracı ku
    - Uygulama ile bilgisayarının IP adresine ping atarak bağlantıyı test et.
 
 
-### 3. **WiFi Ayarları**
+### 7. **WiFi Ayarları**
 Telefonun WiFi ayarlarını kontrol et:
 
 - Ayarlar > Bağlantılar > WiFi > Gelişmiş Ayarlar bölümüne git.
