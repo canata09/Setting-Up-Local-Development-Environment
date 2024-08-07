@@ -99,15 +99,15 @@ Telefonun WiFi ayarlarını kontrol et:
 Sanallaştırma Tabanlı Güvenlik, cihazının temel parçalarını korur.
 
 
-### 9. **Set Up Environment Variables**
+### 9. **Ortam Değişkenlerini Ayarlama**
 
-- Create a `.env` file in your project root and add necessary environment variables as specified in your project documentation.
+- Proje kökünüzde bir `.env` dosyası oluşturun ve proje belgelerinizde belirtildiği şekilde gerekli ortam değişkenlerini ekleyin.
 
 
-### 10. **Run Your Application**
+### 10. **Uygulamanızı Çalıştırın**
 
-- Start your application locally, commonly using commands like: ```npm start``` 
-- Follow any specific instructions in your project's README or documentation.
+- Uygulamanızı genellikle aşağıdaki gibi komutları kullanarak yerel olarak başlatın: ```npm start``` 
+- Projenizin README veya belgelerindeki özel talimatları izleyin.
 
 
 
