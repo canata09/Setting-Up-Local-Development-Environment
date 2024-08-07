@@ -14,7 +14,7 @@ Router'ın firewall ayarları da cihazlar arasındaki iletişimi engelleyebilir.
 Router'ın ayarlarına erişip portların açık olduğundan emin olman gerekiyor:
 
 1. **Router'a Giriş:**
-   - Router’ın IP adresini tarayıcıya yazarak giriş yap. Genellikle bu adres `192.168.0.1` veya `192.168.1.1` gibi olur.
+   - Router’ın IP adresini tarayıcıya yazarak giriş yap. Genellikle bu adres `0.0.0.1` veya `0.0.1.1` gibi olur.
    - Kullanıcı adı ve şifreyle giriş yap. Varsayılan bilgiler genellikle cihazın üzerinde veya kullanım kılavuzunda bulunur.
 
 2. **Port Yönlendirme (Port Forwarding):**
