@@ -95,3 +95,6 @@ Telefonun WiFi ayarlarını kontrol et:
 - IP ayarlarını ve ağın güvenlik ayarlarını kontrol et.
 - Mümkünse, statik IP adresi için kullanmayı dene ve aynı ağa bağlı olduğundan emin ol.
 
+### 8. **Sanallaştırma Tabanlı Güvenlik**
+Sanallaştırma Tabanlı Güvenlik, cihazının temel parçalarını korur.
+
