@@ -98,3 +98,20 @@ Telefonun WiFi ayarlarını kontrol et:
 ### 8. **Sanallaştırma Tabanlı Güvenlik**
 Sanallaştırma Tabanlı Güvenlik, cihazının temel parçalarını korur.
 
+
+### 9. **Set Up Environment Variables**
+
+- Create a `.env` file in your project root and add necessary environment variables as specified in your project documentation.
+
+
+### 10. **Run Your Application**
+
+- Start your application locally, commonly using commands like: ```npm start``` 
+- Follow any specific instructions in your project's README or documentation.
+
+
+
+
+
+
+
