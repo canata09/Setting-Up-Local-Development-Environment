@@ -99,12 +99,17 @@ Telefonun WiFi ayarlarını kontrol et:
 Sanallaştırma Tabanlı Güvenlik, cihazının temel parçalarını korur.
 
 
-### 9. **Ortam Değişkenlerini Ayarlama**
+
+### 9. **Depoyu Klonla**
+Kodu yerel olarak almak için `git clone <repository_url>` kullanın.
+
+
+### 10. **Ortam Değişkenlerini Ayarlama**
 
 - Proje kökünüzde bir `.env` dosyası oluşturun ve proje belgelerinizde belirtildiği şekilde gerekli ortam değişkenlerini ekleyin.
 
 
-### 10. **Uygulamanızı Çalıştırın**
+### 11. **Uygulamanızı Çalıştırın**
 
 - Uygulamanızı genellikle aşağıdaki gibi komutları kullanarak yerel olarak başlatın: ```npm start``` 
 - Projenizin README veya belgelerindeki özel talimatları izleyin.
